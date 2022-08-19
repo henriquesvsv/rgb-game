@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>THE GREAT</h1>
+        <h1 id="rgbValue">oiiii</h1>
+        <h1>GUESSING GAME</h1>
+    </div>
+    <div class="menu">
+        <h5 id="new-colors" id= "new-colors" onclick="start()" onmouseover="adicionar(newColor)" onmouseout="remover(newColor)">NEW COLORS</h5>
+        <div class="dificulty">
+            <h5 id="easy" onmouseover="adicionar(easy)" onmouseout="remover(easy)">EASY</h5>
+            <h5 id="hard" onmouseover="adicionar(hard)" onmouseout="remover(hard)">HARD</h5>
+        </div>
+    </div>
+    <div class="game">
+        <div class="canvas-elements">
+            <div class="up">
+                <canvas id="box-1" onclick="confere(1)"></canvas>
+                <canvas id="box-2"  onclick="confere(2)"></canvas>
+                <canvas id="box-3"  onclick="confere(3)"></canvas>
+            </div>
+            <div class="down">
+                <canvas id="box-4" onclick="confere(4)"></canvas>
+                <canvas id="box-5" onclick="confere(5)"></canvas>
+                <canvas id="box-6" onclick="confere(6)"></canvas>
+        </div>
+        
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

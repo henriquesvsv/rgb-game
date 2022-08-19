@@ -1,0 +1,141 @@
+*{
+    padding:0;
+margin:0;
+list-style:none;
+border:0;
+
+}
+
+.header{
+    background-color: rgb(45,142,153);
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    color: rgb(45,142,153);
+    display:flex;
+    width: 100%;
+    
+}
+.dificulty{
+    width: auto;
+    display: flex;
+    justify-content: end;
+    padding-left: 85%;
+
+}
+
+
+#easy{
+    margin-left:80%;
+    cursor:pointer;
+}
+
+#hard{
+    margin-left:10px;
+    cursor:pointer;
+}
+
+#new-colors{
+    display: flex;
+    justify-content: flex-start;
+    padding-left:10px;
+    cursor:pointer;
+    width: auto;
+
+  
+
+}
+
+h1{
+    font-family: 'Silkscreen', cursive;
+    cursor:default;
+    margin:0px;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+
+}
+h5{
+    margin:0px;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+.game{
+    background-color: rgb(35,35,35);
+    margin:0px;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+
+}
+.canvas-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 484px;
+}
+
+.up {
+    display: flex;
+
+    width: 70%;
+height: 60%;
+justify-content: center;
+    align-items: center;
+}
+.down{
+    display: flex;
+
+    width: 70%;
+height: 60%;
+justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    
+    
+    cursor: pointer;
+    border-radius: 20px;
+    width:30%;
+    height: 90%;
+}
+
+#box-1{
+    margin-right: 15px;
+}
+
+#box-4{
+    margin-right: 15px;
+}
+
+#box-3{
+    margin-left: 15px;
+}
+
+#box-6{
+    margin-left: 15px;
+}
+
+.select{
+    color:white;
+    background-color: rgb(45,142,153);
+}
+
+
+
